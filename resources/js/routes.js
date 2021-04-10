@@ -1,5 +1,5 @@
 import Home from './components/home';
-import Sair from './components/sair';
+import Index from './components/index';
 
 export default{
     mode: 'history',
@@ -11,9 +11,9 @@ export default{
             component: Home
         },
         {
-            name: "Sair",
-            path: '/sair',
-            component: Sair
+            name: "Index",
+            path: '/',
+            component: Index
         },
     ]
 }
